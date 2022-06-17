@@ -1,12 +1,3 @@
-
-
-[![weather](https://raw.githubusercontent.com/cutioluis/weather-reactjs/master/public/image.PNG "weather")](https://raw.githubusercontent.com/cutioluis/weather-reactjs/master/public/image.PNG "weather")
-👤 **Luis Cutiopala**
-
-
-> Weather app
-
-
 ## Install
 
 ```sh
@@ -19,7 +10,8 @@ npm install
 npm run start
 ```
 
-## Tools 
+## Tools
+
 - React
 
 ## Author
