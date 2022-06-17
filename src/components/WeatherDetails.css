@@ -1,0 +1,84 @@
+.weather-container {
+  width: auto;
+  max-width: 300px;
+  max-height: 500px;
+  margin: 0 auto;
+  padding: 2rem 2.5rem;
+  border-radius: 2.5rem;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.container-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-top h1 {
+  color: black;
+  font-size: 1em;
+}
+
+.weather-title {
+  margin: 2px 0;
+}
+
+.paragraph {
+  color: black;
+}
+
+.container-mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.tijd-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  padding: 20px;
+}
+
+.tijd {
+  color: black; 
+  padding: 20px;
+}
+
+.weather-temp-main {
+  font-weight: bold;
+  font-size: 2rem;
+  color: black; 
+  margin-right: 20px;
+}
+
+.weather-tepm {
+  vertical-align: text-top;
+  font-size: 1rem;
+  color: #9b9b9b;
+  font-weight: bold;
+}
+
+.weather-icon-location {
+  font-size: 2rem;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  color: rgb(102, 102, 102);
+}
+
+.container-bot {
+  display: flex;
+  align-items: center;
+}
+
+.container-map {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
