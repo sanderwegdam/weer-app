@@ -10,7 +10,7 @@ export default function WeatherApp() {
   }, []);
 
   useEffect(() => {
-    document.title = `Weather | ${weather?.location.country}`;
+    document.title = `Weer | ${weather?.location.country}`;
   }, [weather]);
 
   async function loadInfo(city = "Overdinkel") {
