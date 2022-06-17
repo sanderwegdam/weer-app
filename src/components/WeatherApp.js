@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import WeatherForm from "../components/WeatherForm";
 import WeatherDetails from "../components/WeatherDetails";
 
-
 export default function WeatherApp() {
   const [weather, setWeather] = useState(null);
 
@@ -21,16 +20,12 @@ export default function WeatherApp() {
       );
       const response = await data.json();
       setWeather(response);
-    } catch (error) { }
+    } catch (error) { window.location.href = "/" }
   }
 
   function handleChangeCity(city) {
     setWeather(null);
     loadInfo(city);
-  }
-
-  function notFound() {
-    alert("Voer eerst een stad in");
   }
 
   return (
@@ -41,8 +36,9 @@ export default function WeatherApp() {
           <WeatherDetails weather={weather} />
         </>
       ) : (
-        notFound()
-      )}
-    </div>
+        <div></div>
+      )
+      }
+    </div >
   );
 }
