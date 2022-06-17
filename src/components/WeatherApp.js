@@ -20,7 +20,7 @@ export default function WeatherApp() {
       );
       const response = await data.json();
       setWeather(response);
-    } catch (error) { window.location.href = "/" }
+    } catch (error) { window.location.href = "/weer-app" }
   }
 
   function handleChangeCity(city) {
