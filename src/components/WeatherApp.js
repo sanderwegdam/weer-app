@@ -13,7 +13,7 @@ export default function WeatherApp() {
     document.title = `Weer | ${weather?.location.country}`;
   }, [weather]);
 
-  async function loadInfo(city = "Overdinkel", days = 3, lang = "nl") {
+  async function loadInfo(city = "Overdinkel", days = 4, lang = "nl") {
     try {
       const data = await fetch(
         `${process.env.REACT_APP_URL}&key=${process.env.REACT_APP_KEY}&q=${city}&days=${days}&lang=${lang}`

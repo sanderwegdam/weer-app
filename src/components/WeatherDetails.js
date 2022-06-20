@@ -62,6 +62,8 @@ export default function WeatherDetails({ weather }) {
           alt={`Icon of ${weather?.location.country}`}
         />
       </div>
+
     </section >
+
   );
 }
