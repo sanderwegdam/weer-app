@@ -6,9 +6,6 @@ import WeatherMap from "../components/WeatherMap";
 export default function WeatherDetails({ weather }) {
   return (
     <section className="weather-container">
-
-
-
       <div className="container-map">
         <WeatherMap weather={weather} />
       </div>
@@ -52,7 +49,6 @@ export default function WeatherDetails({ weather }) {
         />
       </div>
 
-
       <div className="container-mid">
         <h5 className="tijd">{moment(weather.forecast.forecastday[2].date
         ).format("D MMM")} </h5>
@@ -66,7 +62,6 @@ export default function WeatherDetails({ weather }) {
           alt={`Icon of ${weather?.location.country}`}
         />
       </div>
-
     </section >
   );
 }
