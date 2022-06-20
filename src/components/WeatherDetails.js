@@ -39,7 +39,7 @@ export default function WeatherDetails({ weather }) {
         <h5 className="tijd">{moment(weather.forecast.forecastday[1].date
         ).format("D MMM")}</h5>
         <span className="weather-temp-main" style={{ fontSize: '28px' }}>
-          {weather?.forecast.forecastday[1].day.maxtemp_c} <span style={{ fontSize: '18px' }} className="weather-tepm">°C</span>
+          {weather?.forecast.forecastday[1].day.maxtemp_c} <span style={{ fontSize: '14px' }} className="weather-tepm">°C</span>
         </span>
         <img
           width="80"
@@ -53,7 +53,7 @@ export default function WeatherDetails({ weather }) {
         <h5 className="tijd">{moment(weather.forecast.forecastday[2].date
         ).format("D MMM")} </h5>
         <span className="weather-temp-main" style={{ fontSize: '28px' }}>
-          {weather?.forecast.forecastday[2].day.maxtemp_c}  <span style={{ fontSize: '18px' }} className="weather-tepm">°C</span>
+          {weather?.forecast.forecastday[2].day.maxtemp_c}  <span style={{ fontSize: '14px' }} className="weather-tepm">°C</span>
         </span>
         <img
           width="80"
