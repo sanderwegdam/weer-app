@@ -7,6 +7,7 @@ export default function WeatherForm({ onChangeCity }) {
 
   function handleSubmit(e) {
     e.preventDefault();
+    document.querySelector("input").focus();
     onChangeCity(city);
   }
 
