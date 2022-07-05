@@ -27,12 +27,8 @@ export default function WeatherDetails({ weather }) {
         <span className="weather-temp-main">
           {weather?.current.temp_c} <span className="weather-tepm">°C</span>
         </span>
-        <img
-          width="100"
-          height="100"
-          src={weather?.current.condition.icon}
-          alt={`Icon of ${weather?.location.country}`}
-        />
+        <img width="100" height="100" src={weather?.current.condition.icon}
+          alt={`Icon of ${weather?.location.country}`} />
       </div>
 
       <div className="container-mid">
@@ -41,12 +37,8 @@ export default function WeatherDetails({ weather }) {
         <span className="weather-temp-main" style={{ fontSize: '30px' }}>
           {weather?.forecast.forecastday[1].day.maxtemp_c} <span style={{ fontSize: '16px' }} className="weather-tepm">°C</span>
         </span>
-        <img
-          width="80"
-          height="80"
-          src={weather?.forecast.forecastday[1].day.condition.icon}
-          alt={`Icon of ${weather?.location.country}`}
-        />
+        <img width="80" height="80" src={weather?.forecast.forecastday[1].day.condition.icon}
+          alt={`Icon of ${weather?.location.country}`} />
       </div>
 
       <div className="container-mid" style={{ paddingBottom: "50px" }}>
@@ -55,12 +47,8 @@ export default function WeatherDetails({ weather }) {
         <span className="weather-temp-main" style={{ fontSize: '30px' }}>
           {weather?.forecast.forecastday[2].day.maxtemp_c}  <span style={{ fontSize: '16px' }} className="weather-tepm">°C</span>
         </span>
-        <img
-          width="80"
-          height="80"
-          src={weather?.forecast.forecastday[2].day.condition.icon}
-          alt={`Icon of ${weather?.location.country}`}
-        />
+        <img width="80" height="80" src={weather?.forecast.forecastday[2].day.condition.icon}
+          alt={`Icon of ${weather?.location.country}`} />
       </div>
     </section>
   );
