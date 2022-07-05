@@ -14,15 +14,21 @@
 .weatherSearch {
   margin: 0 15px;
   color: black;
-  border: 2px solid black;
+  border: 1px solid gray;
   font-size: 13px;
   background: #f1f3f4;
   font-weight: bold;
   cursor: pointer;  
   outline: none;
-  border-radius: 20px;
+  border-radius: 10px;
   width: 220px;
   text-align: center;
+}
+
+.weatherSearch::placeholder {
+  color: #999;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .weatherIcon {
