@@ -36,10 +36,10 @@ export default function WeatherDetails({ weather }) {
       </div>
 
       <div className="container-mid">
-        <h5 className="tijd">{moment(weather.forecast.forecastday[1].date
-        ).format("D MMM")}</h5>
-        <span className="weather-temp-main" style={{ fontSize: '28px' }}>
-          {weather?.forecast.forecastday[1].day.maxtemp_c} <span style={{ fontSize: '14px' }} className="weather-tepm">°C</span>
+        <h3 className="tijd">{moment(weather.forecast.forecastday[1].date
+        ).format("D MMM")}</h3>
+        <span className="weather-temp-main" style={{ fontSize: '30px' }}>
+          {weather?.forecast.forecastday[1].day.maxtemp_c} <span style={{ fontSize: '16px' }} className="weather-tepm">°C</span>
         </span>
         <img
           width="80"
@@ -49,11 +49,11 @@ export default function WeatherDetails({ weather }) {
         />
       </div>
 
-      <div className="container-mid">
-        <h5 className="tijd">{moment(weather.forecast.forecastday[2].date
-        ).format("D MMM")} </h5>
-        <span className="weather-temp-main" style={{ fontSize: '28px' }}>
-          {weather?.forecast.forecastday[2].day.maxtemp_c}  <span style={{ fontSize: '14px' }} className="weather-tepm">°C</span>
+      <div className="container-mid" style={{ paddingBottom: "50px" }}>
+        <h3 className="tijd">{moment(weather.forecast.forecastday[2].date
+        ).format("D MMM")} </h3>
+        <span className="weather-temp-main" style={{ fontSize: '30px' }}>
+          {weather?.forecast.forecastday[2].day.maxtemp_c}  <span style={{ fontSize: '16px' }} className="weather-tepm">°C</span>
         </span>
         <img
           width="80"
@@ -62,8 +62,6 @@ export default function WeatherDetails({ weather }) {
           alt={`Icon of ${weather?.location.country}`}
         />
       </div>
-
-    </section >
-
+    </section>
   );
 }

@@ -25,7 +25,7 @@ export default function WeatherForm({ onChangeCity }) {
         className="weatherSearch input"
         onChange={onChange}
         type="text"
-        placeholder="Vul hier de stad in"
+        placeholder="Vul hier de plaats in"
       />
       <BiSearch size={25} className="weatherIcon input" onClick={handleSubmit} />
     </form>

@@ -3,7 +3,6 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function WeatherMap({ weather }) {
   return (
-
     <section>
       <div className="weather-container-map">
         <div className="weather-map-drop paragraph">

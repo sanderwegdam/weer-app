@@ -5,6 +5,8 @@ import WeatherDetails from "../components/WeatherDetails";
 export default function WeatherApp() {
   const [weather, setWeather] = useState(null);
 
+  window.onload = function () { document.querySelector("input").focus(); }
+
   useEffect(() => {
     loadInfo();
   }, []);

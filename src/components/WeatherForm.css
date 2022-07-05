@@ -21,7 +21,7 @@
   cursor: pointer;  
   outline: none;
   border-radius: 20px;
-  width:200px;
+  width: 220px;
   text-align: center;
 }
 
@@ -30,7 +30,6 @@
   width: 25px;
   height: 25px;
 }
-
 
 .container-mid {
   margin: 3rem 0;
