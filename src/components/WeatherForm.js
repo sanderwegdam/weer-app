@@ -13,7 +13,7 @@ export default function WeatherForm({ onChangeCity }) {
   function onChange(e) {
     const value = e.target.value;
     if (value === "") {
-      alert("Voer eerst een stad in");
+      alert("Voer eerst een plaats in");
     } else {
       setCity(value);
     }
