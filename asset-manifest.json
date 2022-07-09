@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/weer-app/static/css/main.218fcdd5.css",
+    "main.js": "/weer-app/static/js/main.dfc6a95e.js",
+    "index.html": "/weer-app/index.html",
+    "main.218fcdd5.css.map": "/weer-app/static/css/main.218fcdd5.css.map",
+    "main.dfc6a95e.js.map": "/weer-app/static/js/main.dfc6a95e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.218fcdd5.css",
+    "static/js/main.dfc6a95e.js"
+  ]
+}
