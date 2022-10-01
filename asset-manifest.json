@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/weer-app/static/css/main.218fcdd5.css",
-    "main.js": "/weer-app/static/js/main.dfc6a95e.js",
+    "main.css": "/weer-app/static/css/main.9a72268b.css",
+    "main.js": "/weer-app/static/js/main.4370a7f1.js",
     "index.html": "/weer-app/index.html",
-    "main.218fcdd5.css.map": "/weer-app/static/css/main.218fcdd5.css.map",
-    "main.dfc6a95e.js.map": "/weer-app/static/js/main.dfc6a95e.js.map"
+    "main.9a72268b.css.map": "/weer-app/static/css/main.9a72268b.css.map",
+    "main.4370a7f1.js.map": "/weer-app/static/js/main.4370a7f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.218fcdd5.css",
-    "static/js/main.dfc6a95e.js"
+    "static/css/main.9a72268b.css",
+    "static/js/main.4370a7f1.js"
   ]
 }
